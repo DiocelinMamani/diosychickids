@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../IMG/fondo4.jpg);
+    font-family: 'Emblema One', cursive;
+    background-color: #f4f4f4;
+    height: 100%;
+    
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background: #424849;  /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(0,0%,100%,0.507), rgba(253, 106, 8, 0.5), #298089),  url(../IMG/cantacto.jpg);
+    background: linear-gradient(to right, hsla(0,0%,100%,0.507), rgba(253, 106, 8, 0.5), #298089),  url(../IMG/cantacto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.menu{
+    font-family: 'Rancho', cursive;
+    font-size: x-large;
+    font-style: oblique;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    margin: auto;
+    background: rgb(8, 145, 37);
+    transition: all .1s;
+    
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255); 
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 48px;
+    padding: 0px 10px;
+    transition: all .1s;
+    margin: 50px;
+
+}
+nav ul li a:hover{
+    width: 80px;
+    background-color: rgb(115, 204, 185);
+}
+header .textos-header{
+    display: flex;
+    width: 100%;
+    height: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px, 200px;
+}
+.textos-header h2{
+    color: rgb(5, 40, 46);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.active{
+    background-color: #777;
+}
+.limpiar{
+    clear: both;
+}
+.logo{
+    height: 100px;
+    float: left;
+    margin-top: 0px;
+    padding: 0px, 180px;
+}
+.red_social{
+    float: right;
+    height: 100px;
+    width:20%;
+    padding: 50px 70px;
+}
+ul, ol{
+    list-style: none;
+}
+
+
+/* --------------------Nosotros----------- */
+.contenido-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fondo1{
+    width: 30%;
+}
+
+.contenido{
+    width: 30%;
+}
+.contenido h1{
+    font-family: 'Bangers', cursive;
+    color: rgb(6, 61, 6);
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.contenido p{
+    font-family: 'Katibeh', cursive;
+    font-size: x-large;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.sobre-perfil{
+    width: 100%;
+    margin: auto;
+}
+.perfil{
+    width: 33.333%;
+    float: left;
+    padding: 20px 60px;
+}
+.perfil img{
+    width: 100%;
+}
+.sobre-perfil .perfil img{
+    width: 100%;
+    max-width: 330px;
+    box-shadow: 5px 5px 10px rgba(128, 108, 80, 0.973)
+}
+.perfil img:hover{
+    transform: scale(1.1);
+}
+.sobre-perfil h1{
+    font-family: 'Bangers', cursive;
+    color: rgb(6, 61, 6);
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.perfil h4{
+    font-family: 'Katibeh', cursive;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.sobre-perfi{
+    width: 100%;
+    margin: auto;
+}
+
+.sobre-perfi h1{
+    font-family: 'Bangers', cursive;
+    color: rgb(6, 61, 6);
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+.titulo4{
+    padding: 550px 0px 0px 0px;
+}
+
+.coment2{
+    position: absolute;
+    font-size: 35px;
+    top: 60px;
+    padding-left: 280px;
+    color: #1b0101;
+}
+div h2{
+    position: absolute;
+    top: 15px;
+    padding-left: 280px;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Rye', cursive;
+    font-size: 40px;
+    color: #1b0101;
+}
+
+.coment3{
+    position: absolute;
+    font-size: 20px;
+    top: 85px;
+    padding-left: 350px;
+    font-family: 'Emblema One', cursive;
+    color: #1b0101;
+}
+
+div h3{
+    position: absolute;
+    top: 15px;
+    padding-left: 750px;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Rye', cursive;
+    font-size: 40px;
+    color: #1b0101;
+}
+.coment4{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    padding-left: 750px;
+    font-family: 'Emblema One', cursive;
+    color: #1b0101;
+}
+
+.contenedor-footer{
+    font-family: 'Rakkas', cursive;
+    font-size: xx-large;
+    width: 100%;
+    height:220px;
+    position: absolute;
+    top: 2695px;
+    background: #2a95ec;
+    border-top-style: solid ;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-color: #5b5b5b;
+    border-bottom-color: #5b5b5b;
+}
